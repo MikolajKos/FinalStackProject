@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\",
+  "WorkspaceRootPath": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\interface.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\interface.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\user_interface.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\user_interface.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\stack.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\interface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\MY_STUDENT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\MY_STUDENT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\MY_STUDENT.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\MY_STUDENT.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\MY_STUDENT.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\MY_STUDENT.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\error_handling.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\error_handling.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\error_handling.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\error_handling.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\error_handling.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7544CDCC-553C-49F1-AEA7-416A76FBBD28}|Project3\\Project3.vcxproj|solutionrelative:Project3\\error_handling.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -52,24 +52,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\main.c",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\main.c",
               "RelativeDocumentMoniker": "Project3\\main.c",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\main.c",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\main.c",
               "RelativeToolTip": "Project3\\main.c",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-01-15T16:08:09.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T16:08:09.122Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "interface.c",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\interface.c",
-              "RelativeDocumentMoniker": "Project3\\interface.c",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\interface.c",
-              "RelativeToolTip": "Project3\\interface.c",
-              "ViewState": "AQIAAHEAAAAAAAAAAADwv40AAAAYAAAA",
+              "Title": "user_interface.c",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\user_interface.c",
+              "RelativeDocumentMoniker": "Project3\\user_interface.c",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\user_interface.c",
+              "RelativeToolTip": "Project3\\user_interface.c",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAI0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-15T16:07:35.588Z",
               "EditorCaption": ""
@@ -78,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "interface.h",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\interface.h",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\interface.h",
               "RelativeDocumentMoniker": "Project3\\interface.h",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\interface.h",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\interface.h",
               "RelativeToolTip": "Project3\\interface.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -90,35 +89,33 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "stack.c",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\stack.c",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\stack.c",
               "RelativeDocumentMoniker": "Project3\\stack.c",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\stack.c",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\stack.c",
               "RelativeToolTip": "Project3\\stack.c",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-01-15T16:05:47.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T16:05:47.028Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "stack.h",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\stack.h",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\stack.h",
               "RelativeDocumentMoniker": "Project3\\stack.h",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\stack.h",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\stack.h",
               "RelativeToolTip": "Project3\\stack.h",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-15T16:05:13.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T16:05:13.507Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "error_handling.c",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\error_handling.c",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\error_handling.c",
               "RelativeDocumentMoniker": "Project3\\error_handling.c",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\error_handling.c",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\error_handling.c",
               "RelativeToolTip": "Project3\\error_handling.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -128,9 +125,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "error_handling.h",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\error_handling.h",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\error_handling.h",
               "RelativeDocumentMoniker": "Project3\\error_handling.h",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\error_handling.h",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\error_handling.h",
               "RelativeToolTip": "Project3\\error_handling.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -140,9 +137,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "MY_STUDENT.c",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\MY_STUDENT.c",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\MY_STUDENT.c",
               "RelativeDocumentMoniker": "Project3\\MY_STUDENT.c",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\MY_STUDENT.c",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\MY_STUDENT.c",
               "RelativeToolTip": "Project3\\MY_STUDENT.c",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
@@ -152,9 +149,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "MY_STUDENT.h",
-              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\MY_STUDENT.h",
+              "DocumentMoniker": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\MY_STUDENT.h",
               "RelativeDocumentMoniker": "Project3\\MY_STUDENT.h",
-              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\Project3\\Project3\\MY_STUDENT.h",
+              "ToolTip": "C:\\Users\\nikok\\OneDrive\\Dokumenty\\STUDIA\\Projekty\\GitHub\\Dokonczony projekt\\FinalStackProject\\Project3\\Project3\\MY_STUDENT.h",
               "RelativeToolTip": "Project3\\MY_STUDENT.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",

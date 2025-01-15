@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "stack.h"
-#include "error_handling.h"
+#include "cli_mess.h"
 
 // Funkcje zewnêtrzne
-Stack* stack_init(
+Stack* initialize_stack(
     void (*free_data)(void*),
     void (*print_data)(const void*),
     int (*compare_data)(const void*, const void*),
@@ -28,11 +28,11 @@ Stack* stack_init(
     return stack;
 }
 
-void stack_destroy(Stack* stack) {
+void free_stack(Stack* stack) {
     if (!stack) return;
 
     while (!stack_is_empty(stack)) {
-        void* data = stack_pop(stack);
+        void* data = pop(stack);
         if (data && stack->free_data) {
             stack->free_data(data);
         }
@@ -41,13 +41,13 @@ void stack_destroy(Stack* stack) {
     free(stack);
 }
 
-int stack_push(Stack* stack, void* data) {
+int push(Stack* stack, void* data) {
     if (!stack) {
         handle_error(ERROR_STACK_NOT_INITIALIZED);
         return 0;
     }
 
-    StackNode* new_node = (StackNode*)malloc(sizeof(StackNode));
+    StackItem* new_node = (StackItem*)malloc(sizeof(StackItem));
     if (!new_node) {
         handle_error(ERROR_MEMORY_ALLOCATION);
         return 0;
@@ -61,13 +61,13 @@ int stack_push(Stack* stack, void* data) {
     return 1;
 }
 
-void* stack_pop(Stack* stack) {
+void* pop(Stack* stack) {
     if (!stack || stack_is_empty(stack)) {
         handle_error(ERROR_STACK_EMPTY);
         return NULL;
     }
 
-    StackNode* temp = stack->top;
+    StackItem* temp = stack->top;
     void* data = temp->data;
     stack->top = temp->next;
     free(temp);
@@ -76,7 +76,7 @@ void* stack_pop(Stack* stack) {
     return data;
 }
 
-void* stack_peek(const Stack* stack) {
+void* peek(const Stack* stack) {
     if (!stack || stack_is_empty(stack)) {
         handle_error(ERROR_STACK_EMPTY);
         return NULL;
@@ -88,7 +88,7 @@ int stack_is_empty(const Stack* stack) {
     return (!stack || stack->top == NULL);
 }
 
-void stack_print(const Stack* stack) {
+void stack_print_all(const Stack* stack) {
     if (!stack) {
         handle_error(ERROR_STACK_NOT_INITIALIZED);
         return;
@@ -99,20 +99,20 @@ void stack_print(const Stack* stack) {
         return;
     }
 
-    StackNode* current = stack->top;
+    StackItem* current = stack->top;
     while (current) {
         stack->print_data(current->data);
         current = current->next;
     }
 }
 
-void* stack_find(const Stack* stack, const void* data) {
+void* stack_find_by_criteria(const Stack* stack, const void* data) {
     if (!stack) {
         handle_error(ERROR_STACK_NOT_INITIALIZED);
         return NULL;
     }
 
-    StackNode* current = stack->top;
+    StackItem* current = stack->top;
     while (current) {
         if (stack->compare_data(current->data, data) == 0) {
             return current->data;
@@ -138,7 +138,7 @@ int stack_save_to_file(const Stack* stack, const char* filename) {
     fwrite(&stack->size, sizeof(int), 1, file);
 
     // Zapisz elementy stosu
-    StackNode* current = stack->top;
+    StackItem* current = stack->top;
     while (current) {
         if (!stack->save_data(file, current->data)) {
             handle_error(ERROR_FILE_WRITE);
@@ -165,7 +165,7 @@ Stack* stack_load_from_file(const char* filename,
         return NULL;
     }
 
-    Stack* stack = stack_init(free_data, print_data, compare_data, save_data, read_data);
+    Stack* stack = initialize_stack(free_data, print_data, compare_data, save_data, read_data);
     if (!stack) {
         fclose(file);
         return NULL;
@@ -174,7 +174,7 @@ Stack* stack_load_from_file(const char* filename,
     int size;
     if (fread(&size, sizeof(int), 1, file) != 1) {
         handle_error(ERROR_FILE_READ);
-        stack_destroy(stack);
+        free_stack(stack);
         fclose(file);
         return NULL;
     }
@@ -182,8 +182,8 @@ Stack* stack_load_from_file(const char* filename,
     // Wczytaj elementy
     for (int i = 0; i < size; i++) {
         void* data = read_data(file);
-        if (!data || !stack_push(stack, data)) {
-            stack_destroy(stack);
+        if (!data || !push(stack, data)) {
+            free_stack(stack);
             fclose(file);
             return NULL;
         }

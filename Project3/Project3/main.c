@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "stack.h"
 #include "MY_STUDENT.h"
-#include "interface.h"
-#include "error_handling.h"
+#include "user_interface.h"
+#include "cli_mess.h"
 
 //SF
 #define _CRTDBG_MAP_ALLOC
@@ -11,7 +11,7 @@
 
 int main() {
     // Inicjalizacja stosu
-    Stack* stack = stack_init(free_student,
+    Stack* stack = initialize_stack(free_student,
         print_student,
         compare_students_by_surname,
         save_student_to_file,
@@ -26,7 +26,7 @@ int main() {
     handle_menu(stack);
 
     // Zwolnienie pamiêci
-    stack_destroy(stack);
+    free_stack(stack);
 
     //SF
     if (_CrtDumpMemoryLeaks())

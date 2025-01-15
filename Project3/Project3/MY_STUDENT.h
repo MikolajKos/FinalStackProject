@@ -2,23 +2,24 @@
 #define MY_STUDENT_H
 
 typedef enum {
-    INFORMATYKA,
-    MATEMATYKA,
-    FIZYKA,
-    CHEMIA
-    // mo¿na dodaæ wiêcej kierunków
-} FIELD_OF_STUDY;
+    MA,  // Matematyka
+    PR,  // Programowanie
+    FA,  // Fizyka
+    IF,   // Informatyka
+    END_OF_ENUM //Oznaczenie zakoñczenia
+} StudyField;
 
 extern const char* FIELD_NAMES[];
 
+// Struktura studenta
 typedef struct {
     char* surname;
     int birth_year;
-    FIELD_OF_STUDY field;
+    StudyField field;
 } MY_STUDENT;
 
 // Funkcje zewnêtrzne
-MY_STUDENT* create_student(const char* surname, int birth_year, FIELD_OF_STUDY field);
+MY_STUDENT* create_student(const char* surname, int birth_year, StudyField field);
 void free_student(void* student);
 void print_student(const void* student);
 int compare_students_by_surname(const void* student1, const void* student2);

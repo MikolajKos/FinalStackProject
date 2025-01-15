@@ -127,15 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="error_handling.h" />
-    <ClInclude Include="interface.h" />
+    <ClInclude Include="cli_mess.h" />
+    <ClInclude Include="user_interface.h" />
     <ClInclude Include="MY_STUDENT.h" />
     <ClInclude Include="stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="error_handling.c" />
-    <ClCompile Include="interface.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="cli_mess.c" />
+    <ClCompile Include="user_interface.c" />
+    <ClCompile Include="Main.c" />
     <ClCompile Include="MY_STUDENT.c" />
     <ClCompile Include="stack.c" />
   </ItemGroup>

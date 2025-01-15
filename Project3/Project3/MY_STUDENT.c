@@ -6,17 +6,17 @@
 #include <stdlib.h>
 #include <string.h>
 #include "MY_STUDENT.h"
-#include "error_handling.h"
+#include "cli_mess.h"
 
-const char* FIELD_NAMES[] = {
-    "Informatyka",
-    "Matematyka",
-    "Fizyka",
-    "Chemia"
-};
+//SF W zadaniu bylo zrealizowac zapis-odczyt, wydruk i poszukiwanie danych w obsludze stosu, 
+//jednak Pan przelozyl to na obsluge interfejsu
+//Tym samym unknal Pan otdzielenia obslugi KONTENERA od obslugi danych - jednego z podstawowych momentow zadania projektowego.
+//Prosze zrealizowac te czynnosci w obsludze stosu.
+
+const char* FIELD_NAMES[] = {"Matematyka", "Programowanie", "Filologia Angielska", "Informatyka"};
 
 // Funkcje zewnêtrzne
-MY_STUDENT* create_student(const char* surname, int birth_year, FIELD_OF_STUDY field) {
+MY_STUDENT* create_student(const char* surname, int birth_year, StudyField field) {
     MY_STUDENT* student = (MY_STUDENT*)malloc(sizeof(MY_STUDENT));
     if (!student) {
         handle_error(ERROR_MEMORY_ALLOCATION);
@@ -71,7 +71,7 @@ int save_student_to_file(FILE* file, const void* student) {
     if (fwrite(&s->birth_year, sizeof(int), 1, file) != 1) return 0;
 
     // Zapisz kierunek studiów
-    if (fwrite(&s->field, sizeof(FIELD_OF_STUDY), 1, file) != 1) return 0;
+    if (fwrite(&s->field, sizeof(StudyField), 1, file) != 1) return 0;
 
     return 1;
 }
@@ -96,11 +96,11 @@ MY_STUDENT* read_student_from_file(FILE* file) {
     surname[surname_length] = '\0';
 
     int birth_year;
-    FIELD_OF_STUDY field;
+    StudyField field;
 
     // Odczytaj pozosta³e dane
     if (fread(&birth_year, sizeof(int), 1, file) != 1 ||
-        fread(&field, sizeof(FIELD_OF_STUDY), 1, file) != 1) {
+        fread(&field, sizeof(StudyField), 1, file) != 1) {
         free(surname);
         return NULL;
     }

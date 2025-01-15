@@ -18,13 +18,13 @@
     <ClInclude Include="MY_STUDENT.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="error_handling.h">
+    <ClInclude Include="cli_mess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="stack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="interface.h">
+    <ClInclude Include="user_interface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,16 +32,16 @@
     <ClCompile Include="MY_STUDENT.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="error_handling.c">
+    <ClCompile Include="cli_mess.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="stack.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="interface.c">
+    <ClCompile Include="user_interface.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="Main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
