@@ -1,26 +1,49 @@
 #include <stdio.h>
 #include "cli_mess.h"
 
-// Funkcja wewnêtrzna
-static const char* error_messages[] = {
-    "Brak b³êdu",
-    "B³¹d alokacji pamiêci",
-    "B³¹d otwarcia pliku",
-    "B³¹d odczytu pliku",
-    "B³¹d zapisu do pliku",
-    "Stos jest pusty",
-    "Stos jest pe³ny",
-    "Nieprawid³owe dane wejœciowe",
-    "Stos nie zosta³ zainicjalizowany"
-};
+#define MAX_POINTERS 1000
 
-// Funkcje zewnêtrzne
-void handle_error(ERROR_CODE error) {
-    if (error != ERROR_NONE) {
-        fprintf(stderr, "B£¥D: %s\n", error_messages[error]);
+static void* memory_pointers[MAX_POINTERS];
+static int pointer_count = 0;
+
+void register_memory_for_cleanup(void* ptr) {
+    if (ptr && pointer_count < MAX_POINTERS) {
+        memory_pointers[pointer_count++] = ptr;
     }
 }
 
-const char* get_error_message(ERROR_CODE error) {
-    return error_messages[error];
+void cleanup_all_memory(void) {
+    for (int i = 0; i < pointer_count; i++) {
+        if (memory_pointers[i]) {
+            free_stack(memory_pointers[i]);
+     
+            memory_pointers[i] = NULL;
+        }
+    }
+    pointer_count = 0;
+}
+
+static const char* text_messages[] = {
+    "W Brak bledu",
+    "E Blad alokowania pamieci",
+    "E Nie mozna otworzyc pliku",
+    "E Blad odczytu pliku",
+    "E Blad zapisu do pliku",
+    "W Stos jest pusty",
+    "W Stos jest pelny",
+    "W Nieprawidlowe dane wejsciowe",
+    "W Stos nie zosta³ zainicjalizowany"
+};
+
+//SF ta funkcja nie zwalnia zasoby aplikacji i nie przerywa wykonanie zadania w przypadku fatalnego zdarzenia.
+
+void throw_cli_mess(CLIENT_MESSAGES mess) {
+    if (mess != CLI_MESS_NONE) {
+        puts(text_messages[mess] + 2);
+        
+        if (text_messages[mess][0] == 'E') {
+            cleanup_all_memory();
+            exit(1);
+        }
+    }
 }

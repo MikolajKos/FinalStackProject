@@ -1,16 +1,17 @@
 #ifndef STACK_H
 #define STACK_H
 
+#include "stdafx.h"
+#include <string.h>
+
 typedef struct StackItem StackItem;
 typedef struct Stack Stack;
 
-// Definicja wêz³a stosu
 struct StackItem {
     void* data;
     StackItem* next;
 };
 
-// Definicja stosu
 struct Stack {
     StackItem* top;
     int size;
@@ -34,7 +35,7 @@ int push(Stack* stack, void* data);
 void* pop(Stack* stack);
 void* peek(const Stack* stack);
 int stack_is_empty(const Stack* stack);
-void stack_print_all(const Stack* stack);
+void peek_all(const Stack* stack);
 void* stack_find_by_criteria(const Stack* stack, const void* data);
 int stack_save_to_file(const Stack* stack, const char* filename);
 Stack* stack_load_from_file(const char* filename,

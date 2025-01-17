@@ -1,6 +1,8 @@
 #ifndef MY_STUDENT_H
 #define MY_STUDENT_H
 
+#include "stdafx.h"
+
 typedef enum {
     MA,  // Matematyka
     PR,  // Programowanie

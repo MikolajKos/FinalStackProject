@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="cli_mess.h" />
+    <ClInclude Include="stdafx.h" />
     <ClInclude Include="user_interface.h" />
     <ClInclude Include="MY_STUDENT.h" />
     <ClInclude Include="stack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cli_mess.c" />
+    <ClCompile Include="stdafx.c" />
     <ClCompile Include="user_interface.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="MY_STUDENT.c" />

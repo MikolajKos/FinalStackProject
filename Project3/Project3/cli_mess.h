@@ -1,20 +1,24 @@
 #ifndef ERROR_HANDLING_H
 #define ERROR_HANDLING_H
 
-typedef enum {
-    ERROR_NONE,
-    ERROR_MEMORY_ALLOCATION,
-    ERROR_FILE_OPEN,
-    ERROR_FILE_READ,
-    ERROR_FILE_WRITE,
-    ERROR_STACK_EMPTY,
-    ERROR_STACK_FULL,
-    ERROR_INVALID_INPUT,
-    ERROR_STACK_NOT_INITIALIZED
-} ERROR_CODE;
+#include "stdafx.h"
+#include "stack.h"
 
-// Funkcje zewnêtrzne
-void handle_error(ERROR_CODE error);
-const char* get_error_message(ERROR_CODE error);
+typedef enum {
+    CLI_MESS_NONE,
+    CLI_MESS_ALLOC_ERROR,
+    CLI_MESS_FILE_OPEN,
+    CLI_MESS_FILE_READ,
+    CLI_MESS_FILE_WRITE,
+    CLI_MESS_STACK_EMPTY,
+    CLI_MESS_STACK_FULL,
+    CLI_MESS_INVALID_INPUT,
+    CLI_MESS_STACK_NOT_INITIALIZED
+} CLIENT_MESSAGES;
+
+void throw_cli_mess(CLIENT_MESSAGES mess);
+
+void register_memory_for_cleanup(void* ptr);
+void cleanup_all_memory(void);
 
 #endif
